@@ -1,2 +1,52 @@
 
 /* Your CSS Code here. */
+#row{
+	
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#row-1{
+	
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	flex-wrap:wrap;
+    
+}
+.box-1{
+	width: 70px;
+	height: 70px;
+	background-color: red;
+	order:2;
+	text-align: left;
+	color:black;
+	border: 2px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.box-2{
+	width: 70px;
+	height: 70px;
+	background-color:blue;
+	order:3;
+	text-align: left;
+	color:black;
+	border: 2px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.box-3{
+	width: 70px;
+	height: 70px;
+	background-color: green;
+	order: 1;
+	text-align: left;
+	color:black;
+	border: 2px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#
