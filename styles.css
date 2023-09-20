@@ -1,21 +1,23 @@
 
 /* Your CSS Code here. */
-#row{
-	
+.row{
+	margin: 0 px;
+	padding: 0 px;
 	display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    align-items: flex-start;
 }
-#row-1{
-	
+.holder{
 	display: flex;
+	margin: 0 px;
+	padding: 0 px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+	align-items: center;
 	flex-wrap:wrap;
-    
 }
-.box-1{
+.item-1{
 	width: 70px;
 	height: 70px;
 	background-color: red;
@@ -26,7 +28,7 @@
     font-size: 30px;
     font-weight: 900;
 }
-.box-2{
+.item-2{
 	width: 70px;
 	height: 70px;
 	background-color:blue;
@@ -37,7 +39,7 @@
     font-size: 30px;
     font-weight: 900;
 }
-.box-3{
+.item-3{
 	width: 70px;
 	height: 70px;
 	background-color: green;
